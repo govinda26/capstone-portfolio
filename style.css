@@ -1,0 +1,154 @@
+/* Header Section */
+.header{
+    background-color:#FDF0D1 ;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header  h1{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Meow Script', cursive;
+    font-size: 50px;
+    color: #643843;
+}
+/* Header Section */
+
+
+
+
+
+
+
+/* heros section */
+#heros > img{
+    border: 5px solid black;
+}
+/* heros section */
+
+
+
+
+
+/* #projects > h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* Projects section  */
+
+/* Projects section end */
+
+
+
+/* Contact me  */
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FDF0D1;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Contact me */
+
+
+
+/* Footer Section */
+#footer , p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Footer Section */
+
+
+
+
+
+
+@media only screen and (max-width: 480px){
+
+    html,body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+} 
+
+@media screen and (max-width: 900px) and (min-width: 481px){
+    html,body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 913px) and (min-width: 673){
+    html,body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
+
+
+
+
+
+
+
+/* Projects section */
+.tindog{
+    border: 5px solid black;
+}
+/* d-block mx-lg-auto */
+
+#projects h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .tindog-image img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    } */
+
+.project img{
+    height: 400px;
+    width: 800px;
+}
+
+.project-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#projects img{
+    border: 5px solid black;
+}
+
+@media (max-width: 400px){
+    .project img{
+        width: 300px;
+        height: 270px;
+    }
+}
+/* Projects section */
